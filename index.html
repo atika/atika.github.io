@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="fr">
+	<head>
+		<meta charset="UTF-8">
+		<title>atika.github.io</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=1">
+		<style type="text/css" media="screen">
+			html { height:100%;}
+			body {
+				background: #72BCD9;
+				background: -webkit-linear-gradient(#72BCD9, #F9F8C9);
+				background: linear-gradient(#72BCD9, #F9F8C9);
+				background-repeat: no-repeat;
+				background-attachment: fixed;
+				width:100%;
+				height:100%;
+				color:#fff;
+
+				font: 1.1em 'Helvetica';
+				line-height: 1.6em;
+				text-align: center;
+				margin:0;
+			}
+			body > div {width:70%; margin:120px auto 20px auto; }
+			h1 {
+				color:#197D9C;
+				font-size: 3em;
+				line-height: 1.2em;
+				text-shadow: 1px 1px 2px rgba(0,0,0,0.2);
+
+			}
+			a {
+				text-decoration: none;
+				font-weight: bold;
+				color: #1D9397;
+			}
+			div.repos {
+				clear:both;
+				padding-bottom: 30px;
+			}
+			a.repo {
+				float:left;
+				width:200px; height:200px;
+			}
+			a.repo img {
+				width:auto; height:150px;
+			}
+			hr {
+				clear:both;
+				color:#FFF;
+				border: solid 1px rgba(255,255,255,0.2);
+			}
+			div.repo_list {
+				text-align: left;
+				width:47%;
+				float:left;
+			}
+			div.repo_list p {
+				margin:5px 0 10px 0;
+				font-size: 0.9em;
+				line-height:1.2em;
+				text-shadow: 1px 1px 1px rgba(0,0,0,0.3)
+			}
+
+			@media (max-width : 767px) {
+				body > div {
+					width:100%;
+					margin:0;
+					padding:0;
+					padding-top:50px;
+				}
+				h1 { font-size:30px; }
+				h2 { font-size:23px; }
+				a.repo {
+					width:160px; height:160px;
+				}
+				a.repo img {
+					width:auto; height:100px;
+				}
+				div.repo_list {
+					width:90%;
+					padding:10px;
+				}
+			}
+		</style>
+	</head>
+	<body> 
+		<div>
+			<div class="icon"></div>
+			<h2 id="hostname"></h2>
+			<h1>atika.github.io</h1>
+			<p>Some projects on which I worked or I have contributed.</p>
+			<hr>
+			<div class="repos">
+				<a class="repo" href="https://atika.github.io/launchbar/">
+					<img src="images/launchbar_mac_logo.png" alt=""><br>
+					<b>Launchbar 6</b>
+				</a>
+				<a class="repo" href="https://atika.github.io/dropzone3-actions/">
+					<img src="images/dropzone_mac_logo.png" alt=""><br>
+					<b>Dropzone 3</b>
+				</a>
+			</div>
+			<hr>
+			<div class="repo_list">
+				<h3>Ubersicht widgets</h3>
+				<ul>
+					<li>
+						<a href="https://github.com/atika/Ubersicht-Blur">Ubersicht Blur</a>
+						<p>Create background blurred zones with Übersicht on Mac OS X.</p>
+					</li>
+					<li>
+						<a href="https://github.com/atika/Ubersicht-Youtube">Ubersicht Youtube</a>
+						<p>Widget who display public statistics of an Youtube channel on your Mac OS X desktop with Übersicht. </p>
+					</li>
+					<li>
+						<a href="https://github.com/atika/Ubersicht-GitFinder">Ubersicht GitFinder</a>
+						<p>Display your Git projects on your Mac OS X desktop with Übersicht. GitFinder scans Finder visibles windows and displays statistics for your Git projects. </p>
+					</li>
+					<li>
+						<a href="https://github.com/atika/Ubersicht-Horizontal-Calendar">Ubersicht Horizontal Calendar</a>
+						<p>A simple Übersicht Widget. This will enable a sleek Dateline-like horizontal calendar on your desktop to make it more useful. </p>
+					</li>
+				</ul>
+			</div>
+			<div class="repo_list">
+				<h3>Various</h3>
+				<ul>
+					<li><a href="https://github.com/atika/osx-bluetooth-audio">osx-bluetooth-audio</a><p>Connect to a Bluetooth Audio Device on Mac OS X from the cli.</p></li>
+					<li><a href="https://github.com/atika/brew-cask-upgrade">brew-cask-upgrade</a><p>List and upgrade applications installed with brew cask.</p></li>
+					<li><a href="https://github.com/atika/no-ip">no-ip</a><p>A shell script that works as Dynamic Update Client (DUC) for noip.com.</p></li>
+					<li><a href="https://github.com/atika/hexo-theme-icarus">hexo-theme-icarus</a><p>The blog theme you may fall in love with, coming to Hexo. </p></li>
+					<li><a href="https://github.com/atika/bluesense">bluesense</a><p>AppleScripts you can use with BlueSense for Mac OS X. </p></li>
+					<li><a href="https://github.com/atika/MintUI">MintUI</a><p>A "user interface" for your bash scripts.</p></li>
+				</ul>
+			</div>
+			<hr>
+			<p>
+				GitHub Repositories : 
+				<a href="https://github.com/atika?tab=repositories">https://github.com/atika</a>
+			</p>
+		</div>
+		<script>
+		  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+		  ga('create', 'UA-6021949-13', 'auto');
+		  ga('send', 'pageview');
+
+		</script>
+	</body>
+</html>
